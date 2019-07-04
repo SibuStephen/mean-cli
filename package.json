@@ -46,8 +46,9 @@
     "prompt": "^0.2.13",
     "request": "latest",
     "shelljs": "^0.3.0",
-    "async-series":"latest",
-    "crypto": "latest"
+    "async-series": "latest",
+    "crypto": "latest",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "jshint": "^2.5.10",
@@ -70,6 +71,9 @@
   },
   "scripts": {
     "preinstall": "node ./scripts/preinstall",
-    "test": "node node_modules/.bin/mocha test/**/*.js -R spec"
-  }
+    "test": "node node_modules/.bin/mocha test/**/*.js -R spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
