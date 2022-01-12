@@ -45,7 +45,7 @@
     "progress": "^1.1.8",
     "prompt": "^0.2.13",
     "request": "latest",
-    "shelljs": "^0.3.0",
+    "shelljs": "^0.8.5",
     "async-series":"latest",
     "crypto": "latest"
   },
