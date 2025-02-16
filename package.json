@@ -43,7 +43,7 @@
     "npm": "^2.1.0",
     "opener": "^1.3.0",
     "progress": "^1.1.8",
-    "prompt": "^0.2.13",
+    "prompt": "^1.2.0",
     "request": "latest",
     "shelljs": "^0.3.0",
     "async-series":"latest",
